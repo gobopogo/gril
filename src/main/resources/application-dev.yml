@@ -1,7 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/gril
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
 server:
   port: 8080
-  servlet:
-    context-path: /gril
 cupSize: B
 age: 18
 content: "cupSize:${cupSize}, age:${age}"
