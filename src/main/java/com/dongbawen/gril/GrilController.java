@@ -90,7 +90,7 @@ public class GrilController {
     @DeleteMapping(value = "/grils/{id}")
     public String delete(@PathVariable("id") Integer id){
         grilRepository.deleteById(id);
-        return "删除成功！";
+        return "删除成功rett！";
     }
 
 }
