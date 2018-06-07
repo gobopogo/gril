@@ -6,7 +6,6 @@ package com.dongbawen.gril.domain;
  * @create date 2018/6/7 11:42
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 public class Result<T> {
 

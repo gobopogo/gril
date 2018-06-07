@@ -9,7 +9,6 @@ import org.springframework.stereotype.Component;
  * @create date 2018/6/6 9:06
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 @Component //HelloController中使用@Autowired注入这个类的时候不会报错
 @ConfigurationProperties(prefix = "girl")

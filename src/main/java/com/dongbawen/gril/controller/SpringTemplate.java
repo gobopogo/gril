@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @create date 2018/6/6 9:53
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 //@RestController /*等于@Controller和@ResponseBody*/
 @Controller

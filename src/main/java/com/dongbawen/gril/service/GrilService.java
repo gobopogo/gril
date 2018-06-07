@@ -14,7 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
  * @create date 2018/6/7 9:54
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 @Service
 public class GrilService {

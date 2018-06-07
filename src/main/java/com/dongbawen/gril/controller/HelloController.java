@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.*;
  * @create date 2018/6/5 16:39
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 @RestController
 @RequestMapping("/hello")

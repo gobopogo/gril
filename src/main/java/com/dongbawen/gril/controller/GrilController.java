@@ -20,7 +20,6 @@ import java.util.List;
  * @create date 2018/6/6 15:41
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 @RequestMapping("/gril")
 @RestController

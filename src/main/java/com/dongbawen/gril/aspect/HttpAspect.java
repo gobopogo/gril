@@ -16,7 +16,6 @@ import javax.servlet.http.HttpServletRequest;
  * @create date 2018/6/7 10:45
  * @modified by
  * @modify date
- * @company:云南东巴文信息技术有限公司
  */
 @Aspect
 @Component
