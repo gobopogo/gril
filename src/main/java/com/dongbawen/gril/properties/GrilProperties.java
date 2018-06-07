@@ -1,4 +1,4 @@
-package com.dongbawen.gril;
+package com.dongbawen.gril.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

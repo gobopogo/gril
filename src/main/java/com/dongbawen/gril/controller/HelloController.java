@@ -1,9 +1,8 @@
-package com.dongbawen.gril;
+package com.dongbawen.gril.controller;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
+import com.dongbawen.gril.properties.GrilProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
 /**

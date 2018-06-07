@@ -1,5 +1,6 @@
-package com.dongbawen.gril;
+package com.dongbawen.gril.repository;
 
+import com.dongbawen.gril.domain.Gril;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

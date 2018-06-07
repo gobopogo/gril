@@ -1,10 +1,13 @@
-package com.dongbawen.gril;
+package com.dongbawen.gril.domain;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.validation.Valid;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 
 /**
@@ -25,7 +28,10 @@ public class Gril implements Serializable {
 
     private String cupSize;
 
+    @Min(value = 18, message = "未成年人禁止入内！")
     private Integer age;
+
+    private String money;
 
     /**
      * 无参构造器
@@ -57,5 +63,23 @@ public class Gril implements Serializable {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    public String getMoney() {
+        return money;
+    }
+
+    public void setMoney(String money) {
+        this.money = money;
+    }
+
+    @Override
+    public String toString() {
+        return "Gril{" +
+                "id=" + id +
+                ", cupSize='" + cupSize + '\'' +
+                ", age=" + age +
+                ", money='" + money + '\'' +
+                '}';
     }
 }
