@@ -1,15 +1,65 @@
 spring:
+# 数据连接
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/gril
     username: root
     password: root
+
+# spring-data-jpa
   jpa:
     hibernate:
       ddl-auto: validate
     show-sql: true
+
+# 热部署
+  devtools:
+    restart:
+      #是否启用
+      enabled: true
+      #监听目录
+      additional-paths: src/main/java
+  #freemarker 配置
+  freemarker:
+    template-loader-path: classpath:/templates/
+    cache: false
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
+    suffix: .ftl
+
+  # thymeleaf 模板引擎
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    mode: HTML5
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+
+  # 引入的静态文件resources目录下的 css js img...
+  mvc:
+    static-path-pattern: /static/**
+
+  # 配置i18n 资源文件 共Thymeleaf 读取
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+
+
+# 服务器配置
 server:
   port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+    # 默认200
+    max-threads: 250
+
+# 业务配置
 cupSize: B
 age: 18
 content: "cupSize:${cupSize}, age:${age}"

@@ -1,12 +1,12 @@
-package com.dongbawen.gril;
+package com.dongbawen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GrilApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GrilApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }

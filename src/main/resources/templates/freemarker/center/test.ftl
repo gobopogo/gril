@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Freemacker</title>
 </head>
 <body>
-<h1>Spring Boot Template Index</h1>
+    <h1>${data.code}</h1>
+    <h1>${data.message}</h1>
 </body>
 </html>

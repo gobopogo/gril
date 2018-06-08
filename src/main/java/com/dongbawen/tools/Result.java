@@ -1,4 +1,4 @@
-package com.dongbawen.gril.domain;
+package com.dongbawen.tools;
 
 /**
  * @author missli

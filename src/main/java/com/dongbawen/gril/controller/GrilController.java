@@ -1,8 +1,8 @@
 package com.dongbawen.gril.controller;
 
-import com.dongbawen.gril.ResultUtil;
+import com.dongbawen.tools.ResultUtil;
 import com.dongbawen.gril.domain.Gril;
-import com.dongbawen.gril.domain.Result;
+import com.dongbawen.tools.Result;
 import com.dongbawen.gril.repository.GrilRepository;
 import com.dongbawen.gril.service.GrilService;
 import org.slf4j.Logger;

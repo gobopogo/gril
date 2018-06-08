@@ -1,8 +1,4 @@
-package com.dongbawen.gril;
-
-import com.dongbawen.gril.domain.Result;
-import com.dongbawen.gril.enums.ResultEum;
-import org.springframework.web.bind.annotation.GetMapping;
+package com.dongbawen.tools;
 
 /**
  * @author missli
